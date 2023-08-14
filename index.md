@@ -237,11 +237,13 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+{% comment %}
 <p id="roles">
   <strong>Roles:</strong>
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
+{% endcomment %}
 
 {% comment %}
 WHO CAN ATTEND?
@@ -258,17 +260,20 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to UMass Boston students, staff, and faculty.  Space is limited.
 </p>
-{% endcomment %}
+
 
 <hr/>
 
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
+
+{% comment %}
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
@@ -281,7 +286,7 @@ Everyone who participates in Carpentries activities is required to conform to th
   </a>
 </p>
 <hr/>
-
+{% endcomment %}
 
 {% comment %}
 Collaborative Notes
